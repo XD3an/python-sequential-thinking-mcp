@@ -23,11 +23,7 @@ A Python implementation of the Sequential Thinking MCP server using the official
 ### Running Directly
 
 ```bash
-# Using the entry point
-sequential-thinking-mcp
-
-# Or as a module
-python -m sequential_thinking_mcp
+uv --directory "/path/to/sequential-thinking-mcp" run main.py
 ```
 
 ### Development Mode
@@ -39,10 +35,10 @@ For development and testing, you can use the MCP CLI tools:
 pip install "mcp[cli]"
 
 # Run in development mode
-mcp dev sequential_thinking_mcp
+mcp dev "/path/to/sequential-thinking-mcp"
 
 # npx @modelcontextprotocol/inspector
-npx @modelcontextprotocol/inspector python -m sequential_thinking_mcp
+npx @modelcontextprotocol/inspector uv --diectory "/path/to/sequential-thinking-mcp" run main.py
 ```
 
 ## Integration
