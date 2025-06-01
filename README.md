@@ -1,5 +1,13 @@
 # Sequential Thinking MCP Server (Python Implementation)
 
+<p align="right">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+  </a>
+</p>
+
+
+
 A Python implementation of the Sequential Thinking MCP server using the official Model Context Protocol (MCP) Python SDK. This server facilitates a detailed, step-by-step thinking process for problem-solving and analysis.
 
 ## Features
@@ -144,4 +152,4 @@ For more information, visit [modelcontextprotocol.io](https://modelcontextprotoc
 
 ## License
 
-MIT
+MIT License. See [LICENSE](LICENSE) for details.
